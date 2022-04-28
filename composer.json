@@ -1,0 +1,29 @@
+{
+    "name": "dimalebid/laravel-json-cast",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dima Lebid",
+            "email": "dima@lebid.pro",
+            "homepage": "https://lebid.pro/"
+        }
+    ],
+    "homepage": "https://github.com/dimalebid/laravel-json-cast",
+    "keywords": ["Laravel", "LaravelCastableJsonToObject"],
+    "require": {
+        "php": "^7.2|^8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "DimaLebid\\LaravelJsonCast\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

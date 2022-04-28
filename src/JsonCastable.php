@@ -6,7 +6,7 @@ use Illuminate\Support\Collection;
 use DimaLebid\LaravelJsonCast\Fillable\Fillable;
 use DimaLebid\LaravelJsonCast\Fillable\HasFillable;
 
-abstract class LaravelJsonCast implements Fillable, Arrayable
+abstract class JsonCastable implements Fillable, Arrayable
 {
     use HasFillable;
 

@@ -1,5 +1,5 @@
 <?php
-namespace Lebid\LaravelJsonCast\Fillable;
+namespace DimaLebid\LaravelJsonCast\Fillable;
 
 trait HasFillable
 {

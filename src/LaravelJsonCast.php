@@ -1,10 +1,10 @@
 <?php
-namespace Lebid\LaravelJsonCast;
+namespace DimaLebid\LaravelJsonCast;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Collection;
-use Lebid\LaravelJsonCast\Fillable\Fillable;
-use Lebid\LaravelJsonCast\Fillable\HasFillable;
+use DimaLebid\LaravelJsonCast\Fillable\Fillable;
+use DimaLebid\LaravelJsonCast\Fillable\HasFillable;
 
 abstract class LaravelJsonCast implements Fillable, Arrayable
 {

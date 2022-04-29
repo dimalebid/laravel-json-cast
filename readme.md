@@ -68,3 +68,22 @@ class User extends Model
     ];
 }
 ```
+## Получить значение из поля JSON
+```php
+$userId   = 1;
+$user     = User::find($userId);
+$settings = $user->settings;
+
+dd($settings->country);
+//or
+dd($settings->auth->facebook);
+```
+## Сохранить или обновить значение в поле JSON
+```php
+$userId = 1;
+$user   = User::find($userId);
+
+$user->settings->country = 'USA';
+$user->save();
+```
+Вот так легко и просто можно работать с полем JSON.

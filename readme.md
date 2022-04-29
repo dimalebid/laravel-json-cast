@@ -86,4 +86,4 @@ $user   = User::find($userId);
 $user->settings->country = 'USA';
 $user->save();
 ```
-Вот так легко и просто можно работать с полем JSON.
+Вот так легко и просто можно работать с полем JSON. 
